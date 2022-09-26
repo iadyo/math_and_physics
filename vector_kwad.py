@@ -1,4 +1,4 @@
-# Przesunięcie o wektor - Python
+# Przesunięcie funkcji kwadratowej o wektor - Python
 
 import matplotlib.pyplot as plt
 import numpy as np
