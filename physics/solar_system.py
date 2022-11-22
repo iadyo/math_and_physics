@@ -21,11 +21,11 @@ def main():
     mercury = Planet('Mercury', 3.285, 0.3870993, 0.37882610063537236, 5, '#B7B8B9')
     venus = Planet('Venus', 4.867, 0.723336, 0.7233193745096448, 3, '#FFC649')
     earth = Planet('Earth', 5.98, 0.999995, 0.9998554022971552, 1, '#34A56F')
-    mars = Planet('Mars', 6.39, 1.52371, 1.5170507835579325, 0.5, 'red')
-    jupiter = Planet('Jupiter', 1.899, 5.2029, 5.196802374180633, 0.12, 'gray')
-    saturn = Planet('Saturn', 5.683, 9.537, 9.523136429645305, 0.32, '#C4D0B0')
-    uranus = Planet('Uran', 8.6832, 19.189, 19.16755863227479, 0.54, '#e1eeee')
-    neptune = Planet('Neptune', 1.0243, 30.0699, 30.068790579140014, 0.054, '#5b5ddf')
+    mars = Planet('Mars', 6.39, 1.52371, 1.5170507835579325, 0.9, 'red')
+    jupiter = Planet('Jupiter', 1.899, 5.2029, 5.196802374180633, 0.2, 'gray')
+    saturn = Planet('Saturn', 5.683, 9.537, 9.523136429645305, 0.12, '#C4D0B0')
+    uranus = Planet('Uran', 8.6832, 19.189, 19.16755863227479, 0.05, '#e1eeee')
+    neptune = Planet('Neptune', 1.0243, 30.0699, 30.068790579140014, 0.012, '#5b5ddf')
 
     planets = [jupiter, saturn, neptune, uranus, earth, mercury, venus, mars]
 
@@ -57,7 +57,7 @@ def main():
             y = planets[m].db * np.sin(alfa)
             xt[m].set_data(x, y)
 
-            print('Odległość planety {} od Słońca to {} km'.format(planets[m].name, planets[m].get_radius(x, y)))
+            print('Ilość km od Słońca ({}) to {} km'.format(planets[m].name, planets[m].get_radius(x, y)))
         print('-' * 50)
         return xt
 
