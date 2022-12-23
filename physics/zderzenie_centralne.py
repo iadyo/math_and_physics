@@ -1,4 +1,5 @@
 # Prototyp, zderzenie centralne - Python
+# Stworzone przez Adrian 'adyo'
 
 from sys import argv
 from matplotlib.animation import FuncAnimation
@@ -13,6 +14,15 @@ m1, m2 = float(argv[1]), float(argv[2])
 
 # Wczytywanie prędkości obu ciał przed zderzeniem
 v1_i, v2_i = float(argv[3]), float(argv[4])
+
+# Blokowanie niektórych wartości
+if m1 < 1 or m1 > 5 or m2 < 1 or m2 > 5:
+    print('Masa musi spełniać warunek: 5 < m < 1')
+    exit(0)
+
+if v1_i < 0.1 or v1_i > 50 or v2_i < 0.1 or v2_i > 50:
+    print('Prędkość początkowa musi spełniać warunek: 0.1 < v_i < 50')
+    exit(0)
 
 # Obliczanie prędkości końcowych przy pomocy
 # zasady zachowania pędu m1v1 + m2v2 = m1u1 + m2u2
@@ -34,23 +44,24 @@ scatter2, = axes.plot(x2, 0, 'o', ms=m2 * 4, label='ciało nr 2 (m={})'.format(m
 
 # Tworzymy animację
 def update(i):
-    global x1, x2, u1, u2
-    x1 = x1 + u1 * 0.001
-    x2 = x2 - u2 * 0.001
+    global x1, x2, u1, u2, v1_i, v2_i
+    x1 = x1 + v1_i * 0.001
+    x2 = x2 - v2_i * 0.001
     distance = abs(x2 - x1)
 
-    if u1 != 0 or u2 != 0:
+    if v1_i != 0 or v2_i != 0:
         print('Odległość ciała pierwszego od drugiego: {}'.format(distance))
 
-    if x1 <= x1_min: u1 = 0
-    if x2 >= x2_max: u2 = 0
+    if x1 <= x1_min: v1_i = 0
+    if x2 >= x2_max: v2_i = 0
 
     scatter1.set_data(x1, 0)
     scatter2.set_data(x2, 0)
 
     if distance < 0.025:
-        u2 = -u2
-        u1 = -u1
+        print('Zderzenie!')
+        v2_i = -u2
+        v1_i = -u1
 
     return scatter1, scatter2
 
