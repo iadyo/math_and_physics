@@ -1,4 +1,5 @@
 # Ruchy Browna - Python
+# Stworzone przez Adrian 'adyo'
 
 import matplotlib.pyplot as plt
 import numpy as np
