@@ -1,4 +1,5 @@
 # Pierwiastki całkowite i wymierne wielomianu - Python
+# Stworzone przez Adrian 'adyo'
 
 def w(x):
     return 2*x**3 + 4*x**2 - 4*x - 13
