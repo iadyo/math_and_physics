@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # Wczytywanie podstawowych danych do rysowania wykresu
 x1, x2 = 1, 3
-x1_min, x2_max = x1, x2
+x1_min, x2_max = x1, x2 + 0.5
     
 # Wczytywanie masy obu ciał
 m1, m2 = float(argv[1]), float(argv[2])
@@ -20,7 +20,7 @@ if m1 < 1 or m1 > 5 or m2 < 1 or m2 > 5:
     print('Masa musi spełniać warunek: 5 < m < 1')
     exit(0)
 
-if v1_i < 0.1 or v1_i > 50 or v2_i < 0.1 or v2_i > 50:
+if v1_i < 0 or v1_i > 50 or v2_i < 0 or v2_i > 50:
     print('Prędkość początkowa musi spełniać warunek: 0.1 < v_i < 50')
     exit(0)
 
