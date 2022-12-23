@@ -1,4 +1,5 @@
 # Prototyp, Układ Słoneczny - Python
+# Stworzone przez Adrian 'adyo'
 
 from matplotlib.animation import FuncAnimation
 import matplotlib.pyplot as plt
