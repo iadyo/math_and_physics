@@ -1,4 +1,4 @@
-# Prototyp, zderzenie centralne - Python
+# Zderzenie centralne - Python
 # Stworzone przez Adrian 'adyo'
 
 from sys import argv
@@ -15,7 +15,7 @@ m1, m2 = float(argv[1]), float(argv[2])
 # Wczytywanie prędkości obu ciał przed zderzeniem
 v1_i, v2_i = float(argv[3]), float(argv[4])
 
-# Blokowanie niektórych wartości
+# Blokowanie niektórych wartości (można usunąć, nie jest wymagane)
 if m1 < 1 or m1 > 5 or m2 < 1 or m2 > 5:
     print('Masa musi spełniać warunek: 5 < m < 1')
     exit(0)
