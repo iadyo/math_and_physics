@@ -4,7 +4,7 @@
 # ruchy browna
 ![image](https://user-images.githubusercontent.com/60442527/196241747-ea1f4dd4-8d62-492e-a20a-88fbb8eb0f04.png)
 
-# prototyp: zderzenie centralne
+# zderzenie centralne
 ![image](https://user-images.githubusercontent.com/60442527/209244706-3f45846c-5b9c-448c-8f18-0dd915157f50.png)
 
 # prototyp: uklad sloneczny
