@@ -10,3 +10,8 @@
 # prototyp: uklad sloneczny
 https://user-images.githubusercontent.com/60442527/203407610-739c224b-3196-4639-8693-9b4be0d00c3c.mp4
 
+# nieskończone: pozycja słońca
+![image](https://user-images.githubusercontent.com/60442527/217059365-abed404e-7f68-4d26-9dad-00e9c5925111.png)
+
+
+
