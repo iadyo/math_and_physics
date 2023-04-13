@@ -7,9 +7,6 @@
 # zderzenie centralne
 ![image](https://user-images.githubusercontent.com/60442527/209244706-3f45846c-5b9c-448c-8f18-0dd915157f50.png)
 
-# prototyp: uklad sloneczny
-https://user-images.githubusercontent.com/60442527/203407610-739c224b-3196-4639-8693-9b4be0d00c3c.mp4
-
 # nieskończone: pozycja słońca
 $$\gamma = \left(\frac{2\pi}{366}\right)(doy - 1 + \left(\frac{hour-12}{24}\right)$$
 ![image](https://user-images.githubusercontent.com/60442527/231802558-0db46626-287a-461c-a1b5-fa0c7914481d.png)
