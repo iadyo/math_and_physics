@@ -11,7 +11,10 @@
 https://user-images.githubusercontent.com/60442527/203407610-739c224b-3196-4639-8693-9b4be0d00c3c.mp4
 
 # nieskończone: pozycja słońca
-![image](https://user-images.githubusercontent.com/60442527/217059365-abed404e-7f68-4d26-9dad-00e9c5925111.png)
+$$\gamma = \left(\frac{2\pi}{366}\right)(doy - 1 + \left(\frac{hour-12}{24}\right)$$
+![image](https://user-images.githubusercontent.com/60442527/231802558-0db46626-287a-461c-a1b5-fa0c7914481d.png)
+![image](https://user-images.githubusercontent.com/60442527/231802694-fa93e128-0edc-4701-b6f7-f9e2a04d0119.png)
+
 
 
 
