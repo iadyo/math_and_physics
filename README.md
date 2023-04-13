@@ -8,10 +8,6 @@
 ![image](https://user-images.githubusercontent.com/60442527/209244706-3f45846c-5b9c-448c-8f18-0dd915157f50.png)
 
 # nieskończone: pozycja słońca
-$$\gamma = \left(\frac{2\pi}{366}\right)(doy - 1 + \left(\frac{hour-12}{24}\right)$$
 ![image](https://user-images.githubusercontent.com/60442527/231802558-0db46626-287a-461c-a1b5-fa0c7914481d.png)
 ![image](https://user-images.githubusercontent.com/60442527/231802694-fa93e128-0edc-4701-b6f7-f9e2a04d0119.png)
-
-
-
-
+$$\gamma = \left(\frac{2\pi}{366}\right)(doy - 1 + \left(\frac{hour-12}{24}\right)$$
