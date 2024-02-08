@@ -6,3 +6,6 @@
 
 # zderzenie centralne
 ![image](https://user-images.githubusercontent.com/60442527/209244706-3f45846c-5b9c-448c-8f18-0dd915157f50.png)
+
+# rownanie siecznej (pochodne)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/90a97046-3104-437b-bc49-2c1b0ecceb0c)
