@@ -9,3 +9,4 @@
 
 # rownanie siecznej (pochodne)
 ![image](https://github.com/iadyo/math_and_physics/assets/60442527/90a97046-3104-437b-bc49-2c1b0ecceb0c)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/811960b9-7ac9-446c-b099-93256b0de9fb)
