@@ -8,5 +8,8 @@
 ![image](https://user-images.githubusercontent.com/60442527/209244706-3f45846c-5b9c-448c-8f18-0dd915157f50.png)
 
 # rownanie siecznej (pochodne)
-![image](https://github.com/iadyo/math_and_physics/assets/60442527/90a97046-3104-437b-bc49-2c1b0ecceb0c)
-![image](https://github.com/iadyo/math_and_physics/assets/60442527/811960b9-7ac9-446c-b099-93256b0de9fb)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/b6069c06-7d12-4196-aa22-e2bc8cdb3918)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/65258b75-23e9-4799-8bb9-943c0a10e2dc)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/2256df31-be3a-40ef-9e4f-da3bf7d380f3)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/7f79eaf4-cdd4-4be6-88c2-faf568b81781)
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/95d86ed3-4604-4d86-aac3-f26a53cb3340)
