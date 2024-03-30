@@ -13,3 +13,6 @@
 ![image](https://github.com/iadyo/math_and_physics/assets/60442527/2256df31-be3a-40ef-9e4f-da3bf7d380f3)
 ![image](https://github.com/iadyo/math_and_physics/assets/60442527/7f79eaf4-cdd4-4be6-88c2-faf568b81781)
 ![image](https://github.com/iadyo/math_and_physics/assets/60442527/95d86ed3-4604-4d86-aac3-f26a53cb3340)
+
+# granice
+![image](https://github.com/iadyo/math_and_physics/assets/60442527/ae4290b6-deb3-462a-9d14-87e016be186d)
